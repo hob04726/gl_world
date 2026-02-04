@@ -133,7 +133,13 @@
 },
 {
   "directory": "D:/Workspace/Projects/gl_world/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -ID:/Workspace/Projects/gl_world/include -ID:/Workspace/Projects/gl_world/3rd_party/glad/include -ID:/Workspace/Projects/gl_world/3rd_party/glfw/include -std=gnu++20 -o src\\CMakeFiles\\gl_world.dir\\main.cpp.obj -c D:\\Workspace\\Projects\\gl_world\\src\\main.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -ID:/Workspace/Projects/gl_world/3rd_party/glm -std=c++17 -o 3rd_party\\glm\\glm\\CMakeFiles\\glm.dir\\detail\\glm.cpp.obj -c D:\\Workspace\\Projects\\gl_world\\3rd_party\\glm\\glm\\detail\\glm.cpp",
+  "file": "D:/Workspace/Projects/gl_world/3rd_party/glm/glm/detail/glm.cpp",
+  "output": "D:/Workspace/Projects/gl_world/build/3rd_party/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.obj"
+},
+{
+  "directory": "D:/Workspace/Projects/gl_world/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -ID:/Workspace/Projects/gl_world/include -ID:/Workspace/Projects/gl_world/3rd_party/glad/include -ID:/Workspace/Projects/gl_world/3rd_party/glfw/include -ID:/Workspace/Projects/gl_world/3rd_party/glm -std=gnu++20 -o src\\CMakeFiles\\gl_world.dir\\main.cpp.obj -c D:\\Workspace\\Projects\\gl_world\\src\\main.cpp",
   "file": "D:/Workspace/Projects/gl_world/src/main.cpp",
   "output": "D:/Workspace/Projects/gl_world/build/src/CMakeFiles/gl_world.dir/main.cpp.obj"
 }
